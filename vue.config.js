@@ -1,4 +1,3 @@
-import { defineConfig } from '@vue/cli-service'
-export default defineConfig({
+module.exports = {
   publicPath: process.env.NODE_ENV === 'production' ? '/raschet_com/' : '/'
-})
+}
