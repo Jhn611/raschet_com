@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Raschet.com</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <header>
+      <h1 class="logo">Raschet.com</h1>
+      <nav>
+        <a href="">процент от</a>
+        <a href="">тмп. роста</a>
+        <a href="">целев. цена</a>
+        <a href="">маржинал.</a>
+        <a href="">netdebt/ebitda</a>
+      </nav>
+      <div class="theme_switch">
+        <div class="theme_switch__empty"></div>
+        <img class="sun_icon" src="imgs/sun.jpg" alt="" />
+        <div class="switcher">
+          <svg
+            class="switcher__round"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <circle cx="12" cy="12" r="12" fill="white" />
+          </svg>
+        </div>
+      </div>
+    </header>
+    <div class="empty_card"></div>
+    <main>
+      <div class="card">
+        <h2>процент от</h2>
+        <div class="card__main">
+          <div class="card__main__inputs">
+            <div class="input_div">
+              <p class="input_text">текущее значение</p>
+              <input type="text" placeholder="Введите текст" />
+              <img class="input_img" src="imgs/close.png" alt="" />
+            </div>
+
+            <div class="input_div">
+              <p class="input_text">предыдущее значение</p>
+              <input type="text" placeholder="Введите текст" />
+              <img class="input_img" src="imgs/close.png" alt="" />
+            </div>
+          </div>
+          <div class="card__main__results">
+            <h2>результат:</h2>
+            <div class="result_container">
+              <p>0</p>
+            </div>
+          </div>
+        </div>
+        <p></p>
+      </div>
+    </main>
+  </body>
+</html>
